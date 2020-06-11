@@ -78,7 +78,7 @@ from datetime import timedelta
 
 
 # グラフを描きたい期間のリスト作成
-# 5/28がプロペラ稼働開始。
+# グラフが大きくなりすぎるのでとりあえず1週間
 date_list = [datetime(2019,8,1,12)]
 count_day = 0
 while count_day < 8:
